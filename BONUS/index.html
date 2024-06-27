@@ -26,7 +26,7 @@
             <h1>Email List</h1>
 
             <!-- lista non rodinata -->
-            <ul id="my_list">
+            <ul id="my_list" v-if="mailList.length === 10">
                 <!-- qui andranno le email generate dall'api -->
                 <li class="item_list" v-for="mail in mailList">
                     {{mail}}

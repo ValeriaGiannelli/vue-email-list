@@ -26,7 +26,7 @@ createApp ({
                 
                 // console.log(risposta);
                 // console.log(result);
-                // console.log(this.mailList);
+                console.log(this.mailList.length);
             })
         }
             
